@@ -133,7 +133,6 @@ void H4Protocol::OnDataReady(int fd) {
         hci_packetizer_.OnDataReady(fd, hci_packet_type_);
     }
 }
-}
 
 }  // namespace hci
 }  // namespace bluetooth
